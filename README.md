@@ -28,6 +28,11 @@ To create a Bash script that will generate a multiplication table for a number e
  # PRACTICALS
  COMPLETE SCRIPT.
 
+ ![](./img/L1.png)
+ 
+ ![](./img/L2.png)
+
+
      #!/bin/bash
 
     # Function to display the full multiplication table
@@ -251,3 +256,29 @@ To create a Bash script that will generate a multiplication table for a number e
 * `full_table()`: Generates and prints the full multiplication table from 1 to 10 for the given number.
 
 * `partial_table()`: Prompts the user for a range and generates the multiplication table within that range, defaulting to the full table if the range is invalid.
+
+## TEST CARRIED OUT TO CHECK IF THE SCRIPT MEET REQUIREMENTS.
+  Test 1. Entering a Valid Number and choosing full table.
+
+  
+ ![](./img/L3.png)
+
+  Test 2. Entering a Valid Number and choosing partial table.
+
+  
+ ![](./img/L4.png)
+
+  Test 3. Entering a Valid Number and choosing partial table with invalid Range (Non-integer).
+
+  
+ ![](./img/L5.png)
+
+  Test 4. Entering a Valid Number and choosing partial table with invalid Range (Start>End).
+ ![](./img/L6.png)
+
+  Test 5. Entering an Invalid Number.
+   ![](./img/L7.png)
+
+  Test 6. Entering an invalid Choice for table type.
+    
+![](./img/L8.png)
